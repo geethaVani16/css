@@ -1,0 +1,92 @@
+/* for fitting in the box */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+#product-overview {
+    /* background:url("images/freedom.jpg"); 1st way */
+    background: url("https://www.harivara.com/wp-content/uploads/2016/09/harivarahome-bg.jpg");
+    /* second way */
+    padding: 10px;
+    width:100%;
+    height: 528px;
+    /* border: 5px solid blue; */
+
+
+    /* font-family: 'Anton', sans-serif; */
+}
+h1 {
+    color: aqua;
+    font-family: 'Anton', sans-serif;
+}
+.section-title {
+    color: #2ddf5c;
+}
+.main-header {
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+}
+.main-header > div {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+.main-header-brand {
+    color: rgb(183, 188, 143);
+    text-decoration: none;
+    /* this is not to link line to uHost */
+    font-weight: bold;
+
+    font-size: 22px;
+}
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 75px); 
+    /* 54px is the value of div uhost */
+    vertical-align: middle;
+}
+.main-nav-items {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.main-nav-item {
+    display: inline-block;
+    /* color: rosybrown; */
+    /* text-decoration: none; it is not working because it inheriting from anchor tag */
+    font-weight: bold;
+    font-size: 22px;
+    padding-right: 10px;
+}
+.main-nav-item a {
+    text-decoration: none;
+    color: aquamarine;
+    padding: 3px 0;
+}
+
+.main-nav-item a:hover {
+color: white;
+border-bottom:5px solid white
+}
+
+.main-nav-item a:active {
+    color: white;
+}
+.main-nav-item-cta a {
+    color: blanchedalmond;
+    background: rebeccapurple;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav-item-cta a:hover {
+    color: #2ddf5c;
+    background: white;
+    border: none;
+}
